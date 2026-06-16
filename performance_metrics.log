@@ -1,2 +1,10 @@
 API is running!
 
+[Tue Jun 16 17:13:16 2026
+] Query: "CREATE TABLE users (id INT, name STRING, balance FLOAT)" | Time: 1352us
+[Tue Jun 16 17:13:24 2026
+] Query: "INSERT INTO users VALUES (1, 'Alice', 100.5)" | Time: 832us
+[Tue Jun 16 17:13:31 2026
+] Query: "INSERT INTO users VALUES (2, 'Bob', 200.0)" | Time: 812us
+[Tue Jun 16 17:15:28 2026
+] Query: "SELECT * FROM users" | Time: 572us
